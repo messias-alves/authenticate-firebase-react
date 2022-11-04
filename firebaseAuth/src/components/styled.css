@@ -1,0 +1,66 @@
+.btnWithIcons {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    transition: 0.4s;
+}
+
+.btnWithIcons:hover {
+    background-color: #ccc;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+.form-input {
+    text-align: left;
+}
+
+.form-input label {
+    display: block;
+}
+
+.form-input input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 280px;
+    transition: 0.3s;
+}
+
+.form-input input:hover {
+    border: 1px solid #7d2ae8;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 0px;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    transition: 0.4s;
+    background-color: #7d2ae8;
+    color: #fff;
+    display: inline;
+}
+
+.btn:hover {
+    background-color: #4e129c;
+}
